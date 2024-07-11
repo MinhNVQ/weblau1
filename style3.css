@@ -1,0 +1,90 @@
+body {
+    font-family: "Oswald";
+    margin: 0;
+    background: radial-gradient(ellipse at center,#565656 0%,#ecf0f1 100%);
+}
+h1 ,h3 ,h4, p {
+    margin: 0;
+}
+#m1 h1 {
+    margin-bottom: 10px;
+}
+img {
+    margin: 20px auto;
+    border-radius: 24px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 2px solid black;
+}
+
+li {
+  float: left;
+  text-shadow: -2px 0 black, 0 2px black
+}
+#m1 img{
+    width: 7%;
+    margin-top: 20px;
+    top: 0;
+    left: 10px;
+    position: absolute;
+    padding: 5px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+#m6 {
+    text-align: center;
+    font-weight: 700;
+    background-color: #bdc3c7;
+    line-height: 30px;
+    margin-top: 28px;
+}
+h1{
+    margin: 10px;
+}
+h3{
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+#m1 {
+    background-color: #fdcb6e;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    text-shadow: -1px 0 black, 0 1px black
+}
+#b1 {
+    color: #2d3436;
+    text-shadow: -1px 0 black, 0 1px black
+}
+a:hover {
+    font-weight: 700;
+    color: lightgreen;
+    border: 2px solid lightgreen;
+}
+a:active {
+    font-weight: 700;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+}
